@@ -1,5 +1,9 @@
 #!/bin/bash
 export DEBIAN_FRONTEND=noninteractive
+
+
+ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime
+
 apt-get update
 apt-get install build-essential flex bison cmake zlib1g-dev \
                 libboost-system-dev libboost-thread-dev curl time \
