@@ -1,5 +1,5 @@
 #!/bin/bash
-
+export DEBIAN_FRONTEND=noninteractive
 apt-get update
 apt-get install build-essential flex bison cmake zlib1g-dev \
                 libboost-system-dev libboost-thread-dev curl time \
