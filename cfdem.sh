@@ -41,7 +41,7 @@ cd $HOME
 mkdir LIGGGHTS
 cd LIGGGHTS
 git clone https://github.com/CFDEMproject/LIGGGHTS-PUBLIC
-git clone git://github.com/CFDEMproject/LPP.git lpp
+git clone https://github.com/hoehnp/LPP.git lpp
 
 source $WM_PROJECT_DIR/etc/bashrc
 
